@@ -1,0 +1,235 @@
+#title{
+background:url(../images/table.jpg);
+font-family: "Montserrat";
+width:100%;
+padding-bottom: 80px;
+
+
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem ;
+    font-weight: bold;
+    color:black;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:white;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Bold";
+    font-weight: 100;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: "Ubuntu";
+}
+
+
+
+/* about-me */
+
+#about-me{
+    
+    color:#ac4b1c;
+    background-color: black;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: left;
+}
+
+.title-img{
+    width: 350px;
+    height: 350px;
+    
+    padding-top: 100px;
+}
+
+ul.about-me-ul{
+    list-style-type: none;
+    color:#ffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.5;
+    padding:10% 32%;
+}
+.first-about{
+    
+    
+}
+.download-button{
+    background: #0D0E0E;
+    background-image: -webkit-linear-gradient(top, #0D0E0E, #0F0F10);
+    background-image: -moz-linear-gradient(top, #0D0E0E, #0F0F10);
+    background-image: -ms-linear-gradient(top, #0D0E0E, #0F0F10);
+    background-image: -o-linear-gradient(top, #0D0E0E, #0F0F10);
+    background-image: -webkit-gradient(to bottom, #0D0E0E, #0F0F10);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: "Montserrat-Bold";
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 0px 160px 190px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #0D0D0E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .download-button:hover {
+    border: solid #337FED 1px;
+    background: #FF4C68;
+    background-image: -webkit-linear-gradient(top, #FF4C68, #3D94F6);
+    background-image: -moz-linear-gradient(top, #FF4C68, #3D94F6);
+    background-image: -ms-linear-gradient(top, #FF4C68, #3D94F6);
+    background-image: -o-linear-gradient(top, #FF4C68, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #FF4C68, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+.para-about-me{
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    color:#ffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2;
+    width:95%;
+    padding:10% 20%;
+}
+
+/* skill */
+#skill{
+    background-color: white;
+    padding:7% 10%;
+    text-align: center;
+
+}
+.skills{
+    
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    font-family: "Montserrat";
+    line-height: 2;
+}
+.skill-h2{
+    text-align: center;
+}
+.skill-img{
+    height:150px;
+     width:150px;
+     float: left;
+     margin-right: 30px;
+}
+
+.web-img{
+    height:150px;
+    width:150px;
+    float:right;
+    margin-left: 30px;
+}
+.c-img{
+    height:200px;
+    width:200px;
+    float:left;
+    margin-right:30px;
+}
+.python-img{
+    height:200px;
+    width:200px;
+    float:right;
+    margin-right:30px;
+    
+}
+
+/* projects */
+#projects{
+  background-color: black;
+  text-align: center;
+  
+}
+.carousel-item{
+    padding:7% 20%;
+    
+
+}
+.project-h2{
+    color:white;
+
+    font-family: "Ubuntu";
+}
+.project-p{
+    color:white;
+    font-size:1.2rem;
+    font-weight: bold;
+    font-family:"Montserrat";
+    
+    line-height: 2;
+    margin-bottom:60px;
+}
+.project-img{
+    width:40%;
+    border-radius:0%;
+    
+}
+
+/* contact */
+#contact{
+    background-color:white;
+    padding:7% 15%;
+    color: black;
+    text-align: center;
+}
+.feature-h3{
+    color:black;
+}
+.icon{
+    color:black;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#8b4cff;
+}
+.feature-a{
+    color:black;
+    font-size: 1.3rem;
+    font-family: "Montserraat-Bold";
+    font-weight: bold;
+    line-height: 2;
+}
+.feature-a:hover{
+    color:black;
+}
